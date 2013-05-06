@@ -1,4 +1,17 @@
 TwitterClone::Application.routes.draw do
+get   "static_pages/home"
+get   "static_pages/help"
+
+get   "microposts/index"
+get   "microposts/edit"
+post  "microposts/new"
+get   "microposts/show"
+
+get   "users/index"
+get   "users/edit"
+post  "users/new"
+get   "users/show"
+
   resources :microposts
   resources :users
 
