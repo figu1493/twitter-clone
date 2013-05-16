@@ -67,6 +67,11 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    factory_girl (4.1.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.1.0)
+      factory_girl (~> 4.1.0)
+      railties (>= 3.0.0)
     ffi (1.8.1)
     formatador (0.2.4)
     gherkin (2.12.0)
@@ -198,6 +203,7 @@ DEPENDENCIES
   capybara (= 1.1.2)
   coffee-rails (= 3.2.2)
   debugger
+  factory_girl_rails (= 4.1.0)
   guard
   guard-cucumber
   guard-rspec
