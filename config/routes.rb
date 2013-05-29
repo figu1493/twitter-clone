@@ -7,6 +7,9 @@ TwitterClone::Application.routes.draw do
   match '/signin',  to: 'sessions#new'
   match '/signout', to: 'sessions#destroy', via: :delete
 
+  # Users
+  #match '/edit',    to: 'users#edit'
+
   # Static Pages  
   root to: 'static_pages#home'
   
